@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/threadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Threading" />
+
+
+        <Button
+            android:id="@+id/launchBlockingCoroutine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Launch Blocking Coroutine" />
+
+        <Button
+            android:id="@+id/launchCoroutine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Launch Coroutine" />
+
+        <Button
+            android:id="@+id/asyncCoroutine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Async Coroutine" />
+
+
+        <Button
+            android:id="@+id/callbackWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Call Wrapper Coroutine" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
